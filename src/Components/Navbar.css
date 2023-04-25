@@ -1,0 +1,110 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LeftContainer img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+nav button {
+    margin: 1px 5px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+nav button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.cart-icon-css {
+    color: white;
+}
+
+.cart-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.cart-btn img {
+    width: 30px;
+    height: fit-content;
+    color: brown;
+}
+
+.cart-icon-css {
+    background-color: rgb(168, 106, 13);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+    right: 8px;
+    text-decoration: none;
+}
+
+.cart-icon-css:hover {
+    background-color: white;
+    color: rgb(33, 33, 33);
+    cursor: pointer;
+}
+
+.profile-icon {
+    width: 30px;
+    padding-right: 10px;
+
+}
+
+.logout-btn {
+     margin: 1px 5px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+.logout-btn:hover {
+    background-color: white;
+    color: rgb(9, 7, 2);
+    cursor: pointer;
+}
+
+
+.product-types {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+
+.product-types button {
+    margin: 1px 5px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+.product-types button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
